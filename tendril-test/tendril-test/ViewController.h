@@ -25,10 +25,10 @@
 
 // **MODIFY THESE**
 //#warning Add your app key
-#define CLIENT_ID @"3c7ed78d76c4f2a9b1b616764b7e968f" // app key
+#define CLIENT_ID @"" // app key
 
 //#warning Add your app secret
-#define CLIENT_SECRET @"e98c50845baf67ce9792996cb363bcbb" // app secret
+#define CLIENT_SECRET @"" // app secret
 
 // **MODIFY THESE WITH PREFERRED USER FROM http://dev.tendrilinc.com/docs/sample_users**
 #define USERNAME @"kurt.cobain@tendril.com"
