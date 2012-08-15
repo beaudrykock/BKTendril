@@ -27,16 +27,7 @@
     [super viewDidLoad];
     
     self.tendrilConnect = [[BKTendrilConnect alloc] init];
-    [self.tendrilConnect setClientID:CLIENT_ID]; // app key
-    [self.tendrilConnect setClientSecret:CLIENT_SECRET]; // app secret
-    [self.tendrilConnect setPassword:PASSWORD];
-    [self.tendrilConnect setUsername:USERNAME];
-    [self.tendrilConnect setUserID:USER_ID];
-    [self.tendrilConnect setExternalAccountID:EXTERNAL_ACCOUNT_ID];
     [self.tendrilConnect setDelegate:self];
-    [self.tendrilConnect setXRoute:X_ROUTE];
-    [self.tendrilConnect setScope:SCOPE];
-    [self.tendrilConnect setGrantType:GRANT_TYPE];
     [self.tendrilConnect authorize];
 }
 

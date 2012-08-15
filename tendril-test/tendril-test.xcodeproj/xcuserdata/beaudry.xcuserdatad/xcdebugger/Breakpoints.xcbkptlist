@@ -26,8 +26,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "24"
          endingLineNumber = "24"
-         landmarkName = "-authorize"
-         landmarkType = "5">
+         landmarkName = "@implementation BKTendrilConnect"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -99,12 +99,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "tendril-test/BKTendrilConnect.m"
-         timestampString = "366565431.711321"
+         timestampString = "366719487.514639"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "38"
-         endingLineNumber = "38"
-         landmarkName = "-getConsumptionDataFrom:to:"
+         startingLineNumber = "53"
+         endingLineNumber = "53"
+         landmarkName = "-authorize"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -112,11 +112,24 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "tendril-test/BKTendrilConnect.m"
-         timestampString = "366652646.923177"
+         timestampString = "366719487.514639"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "173"
-         endingLineNumber = "173"
+         startingLineNumber = "188"
+         endingLineNumber = "188"
+         landmarkName = "-printAccessToken"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "tendril-test/BKTendrilConnect.m"
+         timestampString = "366719487.514639"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "197"
+         endingLineNumber = "197"
          landmarkName = "-getTendrilDateFromTimeInterval:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -125,24 +138,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "tendril-test/BKTendrilConnect.m"
-         timestampString = "366652646.923177"
+         timestampString = "366719487.514639"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "182"
-         endingLineNumber = "182"
-         landmarkName = "-getTendrilDateFromTimeInterval:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "tendril-test/BKTendrilConnect.m"
-         timestampString = "366650453.515054"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "46"
-         endingLineNumber = "46"
+         startingLineNumber = "61"
+         endingLineNumber = "61"
          landmarkName = "-getConsumptionDataFrom:to:"
          landmarkType = "5">
       </FileBreakpoint>

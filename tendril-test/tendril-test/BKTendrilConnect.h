@@ -36,6 +36,7 @@
     NSMutableData * data;
     NSInteger requestType;
     BOOL authorized;
+    BOOL parameterized;
 }
 
 @property (nonatomic, strong) NSString *externalAccountID;

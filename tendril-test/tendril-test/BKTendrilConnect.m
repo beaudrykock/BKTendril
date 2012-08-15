@@ -25,6 +25,21 @@
 // CALL THIS FIRST
 -(void)authorize
 {
+    if (!parameterized)
+    {
+        [self setClientID:CLIENT_ID];
+        [self setClientSecret:CLIENT_SECRET];
+        [self setPassword:PASSWORD];
+        [self setUsername:USERNAME];
+        [self setUserID:USER_ID];
+        [self setExternalAccountID:EXTERNAL_ACCOUNT_ID];
+        [self setXRoute:X_ROUTE];
+        [self setScope:SCOPE];
+        [self setGrantType:GRANT_TYPE];
+        
+        parameterized = YES;
+    }
+    
     self.tendrilAuth = [[BKTendrilAuth alloc] init];
     [self.tendrilAuth setClientID:self.clientID];
     [self.tendrilAuth setClientSecret:self.clientSecret];

@@ -15,30 +15,7 @@
 #import "SharedConstants.h"
 #import "BKTendrilConnect.h"
 
-// NOTES...
-// 1. see dev.tendrilinc.com for full API details
-// 2. Full capabilities available at http://dev.tendrilinc.com/oauth/capabilities
 
-// **FOR TESTING, DO NOT MODIFY**
-#define PASSWORD @"password"
-#define X_ROUTE @"sandbox"
-
-// **MODIFY THESE**
-//#warning Add your app key
-#define CLIENT_ID @"" // app key
-
-//#warning Add your app secret
-#define CLIENT_SECRET @"" // app secret
-
-// **MODIFY THESE WITH PREFERRED USER FROM http://dev.tendrilinc.com/docs/sample_users**
-#define USERNAME @"kurt.cobain@tendril.com"
-#define USER_ID 55
-#define EXTERNAL_ACCOUNT_ID @"aid_kc"
-
-// Use short_lived for 3 second access token, to test refresh code
-// other options: user_information, location, consumption, pricing, device, user_profile, comparisons, greenbutton, offline_access
-#define SCOPE @"short_lived"
-#define GRANT_TYPE @"password"
 
 @interface ViewController : UIViewController <BKTendrilConnectDelegateProtocol, UIActionSheetDelegate>
 {
